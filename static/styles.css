@@ -219,3 +219,10 @@ ul {
     margin-bottom: 30px;
 }
 
+/* FOOTER */
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
