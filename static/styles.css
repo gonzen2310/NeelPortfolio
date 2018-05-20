@@ -10,8 +10,8 @@
     background: transparent;
 }
 
-.clearfix::after {
-    content: '';
+.clearfix::after{
+    content: "";
     clear: both;
     display: table;
 }
@@ -54,6 +54,10 @@ p {
     font-size: 20px;
 }
 
+.blue {
+    color: #027BFF;
+}
+
 /* NAVIGATION BAR*/
 .nav {
     display: flex;
@@ -86,3 +90,132 @@ p {
 .contactMe img {
     margin-right: 10px;
 }
+
+/* LANDING */
+
+.landing {
+    height: 100vh;
+    position: relative;
+}
+
+.landingWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.landingLeft {
+    margin-top: 4em;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* SKILLS */
+.skills {
+    text-align: center;
+    margin-bottom: 20em;
+}
+
+.skills p {
+    margin-bottom: 30px;
+}
+
+.skills img {
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+}
+
+.skills img:nth-child(2){
+    width: 40px;
+}
+
+/* EXPERIENCE */
+.work {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+
+.work > .captionText {
+    position: absolute;
+    top: 85px;
+}
+
+.work > .captionText > .underline {
+    display: block;
+    background-color: #027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+
+.work > .experienceImg {
+    width: 85%;
+    float: right;
+    -webkit-box-shadow: 0 3px 70px 0 rgba(23, 20, 26, 0.06);
+    -moz-box-shadow: 0 3px 70px 0 rgba(23, 20, 26, 0.06);
+    box-shadow: 0 3px 70px 0 rgba(23, 20, 26, 0.06);
+}
+
+
+/* PROJECTS */
+.work2 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+
+.work2 > .captionText {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    text-align: right;
+}
+
+.work2 > .captionText > .underline {
+    display: block;
+    background-color: #027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+    float: right;
+}
+
+.work2 > .experienceImg {
+    width: 85%;
+    float: left;
+    -webkit-box-shadow: 0 3px 70px 0 rgba(23, 20, 26, 0.06);
+    -moz-box-shadow: 0 3px 70px 0 rgba(23, 20, 26, 0.06);
+    box-shadow: 0 3px 70px 0 rgba(23, 20, 26, 0.06);
+}
+
+/* VIEW MORE*/
+.work a, .work2 a {
+    text-decoration: none;
+    color: #17191A;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    margin-bottom: 20em;
+}
+
+.contact p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
