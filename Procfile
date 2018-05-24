@@ -1,0 +1,1 @@
+web: gunicorn NeelPortfolio.wsgi —-log-file -
