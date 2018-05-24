@@ -25,7 +25,7 @@ SECRET_KEY = 'zla%l8(3h!z1$vybc+-u^+t!7=d_kn7y(cx(oe3w&y1p4jy(ce'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'https://floating-gorge-96149.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'floating-gorge-96149.herokuapp.com']
 
 
 # Application definition
